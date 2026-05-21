@@ -7,3 +7,7 @@ Y para esta primera parte voy a tener en cuenta los siguientes requisistos:
 2. Lógica embebida QWeb: Debe hacer uso de directivas de iteración (t-foreach) para desglosar dinámicamente las líneas de la factura (invoice_line_ids).
 3. Lógica condicional: Debe implementar una condición (t-if) para ocultar la columna de "Descuento" en caso de que ninguna de las líneas de detalle de la factura lo contenga.
 4. Data Binding: Utilizar la directiva t-field para mostrar de forma limpia campos como el número de factura (doc.name), fecha de emisión (doc.date) y el total neto (doc.amount_total).
+
+
+## 2. Interoperabilidad de Datos (Extracción JSON/XML)
+Ahora para esta segunda parte del trabajo voy a hacer que las facturas de "WillmanTech S.L." permitan incorporarse a la plataforma de la Agencia Tributaria o se sincronicen con sistemas contables externos de manera asíncrona y para eso voy a definir las estructuras de intercambio de datos.
